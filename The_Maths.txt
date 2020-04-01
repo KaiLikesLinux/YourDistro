@@ -1,0 +1,78 @@
+The equasions used to decide distribution will be the following:
+
+NOTE: Answers will be different than how is labled in Questions.txt
+as it will actually be in order of MORE to LESS and if applicable
+the IDC which is always labled at 0.
+
+The first question is the only one that is different from the rest,
+so it will be calculated first. It will also decide how everything
+else goes for a distribution to be picked. It will create part of
+the ID that selects distribution. 
+1. Desktop / Office
+2. Gaming
+3. Programming
+4. Learning Linux.
+This will not mean too much until the other equasions are done.
+The numbers will be corrilated to the actual section. This will
+be a huge factor later in ID setting.
+
+------
+CHOICE
+------
+Any section that is more about looks will be set as a number assosiated
+with the choice. Do-Not-Care's will be set to 0.
+These numbers have no meaning but to create a final result.
+
+----------
+EXPERIENCE
+----------
+With experience sections, the numbers are set to the skill level.
+1 is lowest (Less experience)
+4 is highest (More experience)
+These will decide by similar fashion to being in the final ID that
+selects the best suited distributions. The distribution will be set
+by a human being (Closer IDs may be mixed) manually for each of the
+40 possible IDs.
+
+----------
+ID SETTING
+----------
+ID's will be set by an array, strung together. Each of the 10 Questions
+will have a number on the ID, in order on when they are asked. 
+The original array will look like this:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Now with 4 per each, we will need 40 distributions to list. Maybe less.
+An example ID would look like:
+[1, 2, 0, 4, 3, 2, 3, 2, 2, 1]
+
+Strung together it should look like this:
+1204323221
+Which will be parsed as such:
+1-20-43232-21
+Those four will give a basic understanding of the following:
+Section 1: Use case
+Section 2: Pure looks
+Section 3: Skill 
+Section 4: Familiarity!
+
+Now it will look for distributions with section #'s. Added together.
+Here is basically how it works in a flow chart
+
+-----------              --------------
+| Section |  ----------> | Subsection |
+-----------              --------------
+                                |
+                                |
+                                |
+                                V
+    --------                ---------
+    | Item | <------------- | Group |
+    --------                ---------
+
+In short it looks for sections 1 - 4.
+Subsections 0 - 8 (subsection 1 and 5 does not exist)
+Group 0 - 16 (some group #'s may not exist)
+Item 0 - 8 (items 1 and 5 do not exist)
+
+This helps categorization in the program.
