@@ -1,4 +1,5 @@
 ## These are the questions we ask to choose the distribution!
+## Please read The_Maths.txt for information on calculations!
 
 1 - How do you plan to use your OS?
 a. Desktop Computing / Office
