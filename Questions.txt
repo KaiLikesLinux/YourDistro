@@ -12,50 +12,20 @@ b. Modern
 c. I need lightweight over looks
 d. I do not care
 
-3 - Any pre-installed applications?
-a. Only the essentials for desktop
-b. Some out-of-box applications
-c. No applications
-d. Does not matter
-
-4 - How comfortable are you with the terminal?
+3 - How comfortable are you with the terminal?
 a. Not at all
 b. Not very
 c. Somewhat
 d. Fair to good
 
-5 - What versions do you want your packages?
-a. The most stable versions (Might be older)
-b. Latest and greatest! Anything new I want
-c. Latest stable versions (Newer but more stable)
-d. No package management (Working with from-source only)
-
-6 - How much support will you need?
+4 - How much support will you need?
 a. LOTS!! I am clueless here.
 b. Some, I know a lot of things but would like help when needed.
 c. Little, I don't care for help I will figure it out!
 d. NONE! I do not care for support, give me the manual.
 
-7 - Speed of your OS.
-a. Speed is key!!
-b. I can live a slower life
-c. My laptop is old, I need more speed
-d. Don't care
-
-8 - Have you used Linux before?
-a. Yes! Long ago.
-b. Yes! Recently!
-c. No! I have heard of it!
-d. No! Never heard of it!
-
-9 - More Mac-like or Windows-like? (LOOKS)
+5 - More Mac-like or Windows-like? (LOOKS)
 a. Closer to Mac!
 b. Closer to Windows!
 c. Different to both!
 d. It doesn't matter!
-
-10 - Customization!
-a. More customization options.
-b. Fewer customization options.
-c. LOTS of customization options.
-d. It doesn't matter.
